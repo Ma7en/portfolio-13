@@ -1,0 +1,49 @@
+
+/*  */
+
+@media (max-width: 991px) {
+
+/* start glob */
+.heading h2 {
+    font-size: 1.6rem;
+}
+
+
+
+
+/* start home */
+.home .cont .text h1 {
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+
+
+
+/* start about */
+
+.about-text h1 {
+    font-size: 1.3rem;
+}
+
+.about-text p {
+    line-height: 1.5rem;
+}
+
+
+
+/* start work */
+.work .content .text p {
+    line-height: 1.5rem;
+    margin: 5px 0px 24px;
+}
+
+
+
+
+
+
+
+
+
+}

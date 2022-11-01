@@ -1,0 +1,40 @@
+
+@media (max-width: 360px) {
+
+
+/* start home */
+
+.home .cont .text h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+
+
+
+
+
+/* start work */
+
+.work .content .text h1 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+
+/* start contact */
+.contact-content {
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+}

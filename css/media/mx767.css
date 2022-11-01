@@ -1,0 +1,78 @@
+
+@media (max-width: 767px) {
+
+
+/* start header */
+.header #toggle {
+    display: flex;
+}
+
+.header .menu {
+    position: fixed;
+    top: 69px;
+    right: 100%;
+    display: block;
+    padding: 100px 50px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: var(--bg-color);
+    transition: 0.5s ease;
+    z-index: 999;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header .menu.active {
+    right: 0;
+}
+
+.header .menu li a {
+    font-size: 35px;
+    line-height: 80px;
+    color: #fff;
+}
+
+
+/* start home */
+.home .container {
+    flex-direction: column-reverse;
+}
+
+
+
+/* start about */
+.about .content {
+    flex-direction: column;
+}
+
+
+/* start Services */
+.services .content .box:hover {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+
+
+
+/* start work */
+.work .content {
+    flex-direction: column;
+}
+
+
+
+/* start contact */
+.contact .content {
+    flex-direction: column;
+}
+
+
+
+
+
+}
+
